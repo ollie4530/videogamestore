@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background-color: #000033;
+}
+body{
+	width: 1000px;
+	height: 750px;
+	background-color: indianred;
+	margin: auto;
+}
+header{
+	width: 1000px ;
+	height: 200px;
+	background-color: violet;
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background-color: #6600CC;
+}
+article{
+	width: 800px;
+	height: 700px;
+	background-color: #330066;
+    float: left;
+}
+
+aside{
+	width: 200px;
+	height: 700px;
+	background-color: black;
+	float: left;
+}
+footer{
+	width: 1000;
+	height: 50;
+	background-color:;
+	float: left;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 21px;
+	font-family: tahoma;
+}
+
+nav li{
+	display: inline-block;
+	padding: 12px 5px;
+	box-shadow: 0px 0px 10px #000;
+	color: #fff;
+}
+
+nav li:hover{
+	background-color: #fff;
+	color: #000;
+	box-shadow: 0px 0px 10px #fff;
+	transition: 0.8s;
+}
+
+nav ul{
+	text-align: left;
+}
+
+/*¨Menu redes sociales*/
+.redes ul{
+	list-style: none;
+	text-align: center;
+}
+
+.redes ul li{
+	display: inline-block;
+	padding: 12px 0px;
+}
+
+.redes ul li img{
+	width: 35px;
+}
+
+.redes ul li:hover{
+	box-shadow: 0 0 30px  #B3B6B7;
+	transition: 0.5s;
+}
